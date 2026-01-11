@@ -1,7 +1,7 @@
 #!/bin/sh
 set -eu
-
-ZIP_PATH="${1:-/Users/sig67/Downloads/Parrot-security-7.0_arm64.utm.zip}"
+# Your destenation
+ZIP_PATH="${1:-/Users/User1/Downloads/Parrot-security-7.0_arm64.utm.zip}"
 
 # ---- requirements ----
 if [ ! -f "$ZIP_PATH" ]; then
