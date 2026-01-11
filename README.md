@@ -65,8 +65,8 @@ brew install qemu
 ## Usage
 
 - **Make the script executable:**
-chmod +x utm2parallels.sh
+chmod +x utm2parallels_arm64.sh
 
 - **Run with a UTM zip export:**
 
-./utm2parallels.sh /path/to/YourVM.utm.zip
+./utm2parallels_arm64.sh /path/to/YourVM.utm.zip
